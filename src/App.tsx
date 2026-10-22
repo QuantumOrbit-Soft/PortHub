@@ -51,7 +51,7 @@ export default function App() {
         theme={theme}
         onToggleTheme={() => setTheme((value) => value === 'light' ? 'dark' : 'light')}
       />
-      <main className="main-content">
+      <main className={`main-content${currentPage === 'home' ? ' main-content--home' : ''}`}>
         {currentPage === 'home' && <Home />}
         {currentPage === 'about' && <About />}
         {currentPage === 'form' && <LinkForm />}

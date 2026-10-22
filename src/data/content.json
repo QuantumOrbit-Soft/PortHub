@@ -1,0 +1,50 @@
+[
+  {
+    "id": "getting-started",
+    "title": "Getting Started",
+    "description": "A quick introduction to PortHub and how to navigate the site.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=960&q=80",
+    "linkText": "Read the guide",
+    "href": "about.html"
+  },
+  {
+    "id": "workspace-ideas",
+    "title": "Workspace Ideas",
+    "description": "Explore simple ways to create a focused and comfortable workspace.",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=960&q=80",
+    "linkText": "Explore ideas",
+    "href": "about.html"
+  },
+  {
+    "id": "design-notes",
+    "title": "Design Notes",
+    "description": "Small design principles that make digital experiences clearer and easier to use.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=960&q=80",
+    "linkText": "View notes",
+    "href": "about.html"
+  },
+  {
+    "id": "useful-links",
+    "title": "Useful Links",
+    "description": "A sample collection of links and resources to keep important things close at hand.",
+    "image": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=960&q=80",
+    "linkText": "Browse links",
+    "href": "form.html"
+  },
+  {
+    "id": "creative-process",
+    "title": "Creative Process",
+    "description": "A few practical prompts to help turn a rough idea into a finished project.",
+    "image": "https://images.unsplash.com/photo-1455390582262-044c100f05b5?auto=format&fit=crop&w=960&q=80",
+    "linkText": "Get inspired",
+    "href": "about.html"
+  },
+  {
+    "id": "share-a-resource",
+    "title": "Share a Resource",
+    "description": "Found something useful? Use the sample form page as a starting point for sharing it.",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=960&q=80",
+    "linkText": "Share a link",
+    "href": "form.html"
+  }
+]
