@@ -1,12 +1,12 @@
-import { Info } from 'lucide-react'
-import PageCard from '../components/PageCard'
-
 export default function About() {
   return (
-    <PageCard
-      title="ABOUT"
-      description="A little space to tell your story."
-      icon={Info}
-    />
+    <article className="about-content">
+      <h1>About This Space</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+        justo sed neque consequat feugiat. Curabitur at lorem non erat
+        ullamcorper tincidunt, sed posuere sapien.
+      </p>
+    </article>
   )
 }
