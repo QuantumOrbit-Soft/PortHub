@@ -45,6 +45,18 @@ h1 { margin: 0; font-size: clamp(26px, 5vw, 34px); font-weight: 600; letter-spac
 .about-content { width: min(100%, 640px); padding: 8px 0; }
 .about-content h1 { font-size: clamp(26px, 5vw, 34px); }
 .about-content p { margin: 16px 0 0; color: var(--muted-foreground); font-size: 15px; line-height: 1.8; }
+.link-form-content { width: min(100%, 560px); padding: 8px 0; }
+.link-form-description { margin: 14px 0 28px; color: var(--muted-foreground); font-size: 15px; line-height: 1.8; }
+.link-submission-form { display: flex; flex-direction: column; gap: 20px; }
+.form-field { display: flex; flex-direction: column; gap: 8px; }
+.form-field label { font-size: 13px; font-weight: 600; }
+.form-field input { width: 100%; min-height: 44px; border: 1px solid var(--border); border-radius: 8px; padding: 0 12px; background: var(--card); color: var(--foreground); font: inherit; font-size: 14px; }
+.form-field input::placeholder { color: var(--muted-foreground); }
+.form-field input:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.link-submit-button { min-height: 44px; border: 1px solid var(--primary); border-radius: 8px; padding: 0 16px; background: var(--primary); color: var(--primary-foreground); font-size: 14px; font-weight: 600; cursor: pointer; transition: opacity 150ms ease; }
+.link-submit-button:hover { opacity: .88; }
+.link-submit-button:focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; }
+.form-notice { margin: 0; color: var(--muted-foreground); font-size: 13px; line-height: 1.6; }
 .main-content--home { display: block; padding: clamp(28px, 5vw, 64px) clamp(16px, 5vw, 64px); }
 .home-content { width: 100%; max-width: 1600px; margin: 0 auto; }
 .home-heading { margin-bottom: 30px; }
