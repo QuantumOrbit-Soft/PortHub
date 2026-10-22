@@ -1,21 +1,29 @@
 # PortHub
 
-Aplicação multipágina com React e TypeScript, visual inspirado no shadcn/ui e build estático para GitHub Pages.
+A multipage React and TypeScript application with a shadcn/ui-inspired design, built for static hosting on GitHub Pages.
 
-## Desenvolvimento
+## Development
 
 ```sh
 npm install
 npm run dev
 ```
 
-## Build e publicação
+## Build and deployment
 
 ```sh
 npm run build
 npm run preview
 ```
 
-O build gera `dist/` com `index.html`, `about.html` e `form.html`. Publique o conteúdo de `dist/` no GitHub Pages. O Vite usa caminhos relativos para funcionar tanto em domínio próprio quanto em repositórios de projeto.
+The build generates `dist/` with `index.html`, `about.html`, and `form.html`. The GitHub Actions workflow builds the site and publishes the contents of `dist/` to GitHub Pages. Vite uses relative asset paths to support both custom domains and project repositories.
 
-O tema claro/escuro é compartilhado entre as páginas usando `localStorage`; se o armazenamento estiver indisponível, a alternância continua funcionando na página atual.
+The light/dark theme preference is shared between pages through `localStorage`. If browser storage is unavailable, theme switching still works on the current page.
+
+## Project structure
+
+- `src/components/` — shared header, footer, and page-card components.
+- `src/pages/` — Home, About, and Send Link page components.
+- `src/App.tsx` — page selection and theme state.
+- `src/main.tsx` — application entry point.
+- `index.html`, `about.html`, `form.html` — Vite entry points for the three published pages.
